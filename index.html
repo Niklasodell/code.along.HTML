@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>My pokemons:</h2>
+    <form id="pokemonForm">
+      <input id="pokemonInput" type="number" />
+      <input type="submit" />
+    </form>
+    <div class="grid-container" id="gridContainer"></div>
+
+    <h2>Contact form</h2>
+    <form id="contactForm">
+      <input
+        type="text"
+        name="name"
+        placeholder="name"
+        id="nameInput"
+        onchange="onNameChange(event)"
+      />
+      <input type="email" name="email" placeholder="email" id="emailInput" />
+      <p id="sessionName"></p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
